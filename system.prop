@@ -76,3 +76,6 @@ persist.timed.enable=true
 
 # Wifi
 wifi.interface=wlan0
+
+# S Bringup
+ro.kernel.ebpf.supported=false
