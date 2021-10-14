@@ -79,3 +79,5 @@ wifi.interface=wlan0
 
 # S Bringup
 ro.kernel.ebpf.supported=false
+
+debug.renderengine.backend=threaded
