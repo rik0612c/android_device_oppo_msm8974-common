@@ -23,7 +23,7 @@ oppo_msm8974_init_library_static {
     ],
     include_dirs: [
         "device/oppo/msm8974-common/init",
-        "system/core/base/include",
+        "system/libbase/include",
         "system/core/init",
         "external/selinux/libselinux/include",
         "external/libcap/libcap/include",
