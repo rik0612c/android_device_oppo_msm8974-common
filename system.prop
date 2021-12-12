@@ -65,6 +65,8 @@ ro.telephony.call_ring.multiple=0
 ro.telephony.default_network=9
 
 ro.use_data_netmgrd=true
+ro.vendor.use_data_netmgrd=true
+persist.vendor.radio.rat_on=combine
 
 telephony.lteOnGsmDevice=1
 
