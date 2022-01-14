@@ -85,10 +85,10 @@ wifi.interface=wlan0
 
 # S-U Bringup
 ro.kernel.ebpf.supported=false
-debug.renderengine.backend=threaded
+debug.renderengine.backend=gles
 persist.sys.binary_xml=false
 ro.vndk.version=current
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 ro.soc.model=MSM8974
 persist.log.tag.OpenGLRenderer=S
 bluetooth.le.disable_apcf_extended_features=1
