@@ -90,3 +90,4 @@ persist.sys.binary_xml=false
 ro.vndk.version=current
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=MSM8974
+persist.log.tag.OpenGLRenderer=S
