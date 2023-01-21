@@ -92,3 +92,4 @@ ro.soc.manufacturer=Qualcomm
 ro.soc.model=MSM8974
 persist.log.tag.OpenGLRenderer=S
 bluetooth.le.disable_apcf_extended_features=1
+bluetooth.sco.disable_enhanced_connection=1
