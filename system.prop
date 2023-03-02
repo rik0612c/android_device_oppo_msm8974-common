@@ -93,5 +93,6 @@ ro.soc.model=MSM8974
 persist.log.tag.OpenGLRenderer=S
 bluetooth.le.disable_apcf_extended_features=1
 bluetooth.sco.disable_enhanced_connection=1
+bluetooth.core.le.vendor_capabilities.enabled=false
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.enable_transaction_tracing=false
