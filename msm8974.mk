@@ -70,10 +70,6 @@ PRODUCT_PACKAGES += \
     charger_res_images
 WITH_LINEAGE_CHARGER := false
 
-# CryptfsHW
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
-
 # Data
 PRODUCT_PACKAGES += \
     librmnetctl
