@@ -35,6 +35,10 @@ dalvik.vm.heapsize=512m
 dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heapminfree=2m
 dalvik.vm.heapmaxfree=8m
+dalvik.vm.dex2oat-swap=false
+dalvik.vm.dex2oat-cpu-set=0,1,2,3
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.dex2oat-filter=speed
 
 # Display
 debug.hwui.use_buffer_age=false
