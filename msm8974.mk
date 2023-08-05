@@ -19,8 +19,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService \
-    com.dsi.ant.antradio_library
+    AntHalService
 
 # APEX
 PRODUCT_COPY_FILES += \
@@ -81,7 +80,6 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.2.vendor \
     android.hardware.drm@1.4-service.clearkey
 
 # Gatekeeper
@@ -213,9 +211,7 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.qcom-common.rc \
-    init.qcom.power.rc \
-    init.recovery.qcom.rc \
-    ueventd.qcom.rc
+    init.qcom.power.rc
 
 PRODUCT_PACKAGES += \
     init.qcom.bt.sh
