@@ -63,7 +63,8 @@ TARGET_BOOTANIMATION_HALF_RES := true
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
-    camera.device@1.0-impl
+    camera.device@1.0-impl \
+    Aperture
 
 # Charger
 PRODUCT_PACKAGES += \
