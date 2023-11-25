@@ -47,7 +47,8 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libqcomvoiceprocessingdescriptors
+    libqcomvoiceprocessingdescriptors \
+    libaudioroute
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -156,7 +157,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libminijail:32
 
 # Misc dependency packages
 PRODUCT_PACKAGES += \
