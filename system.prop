@@ -83,7 +83,7 @@ persist.timed.enable=true
 # Wifi
 wifi.interface=wlan0
 
-# S Bringup
+# S-U Bringup
 ro.kernel.ebpf.supported=false
 debug.renderengine.backend=threaded
 persist.sys.binary_xml=false
@@ -96,3 +96,4 @@ bluetooth.sco.disable_enhanced_connection=1
 bluetooth.core.le.vendor_capabilities.enabled=false
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.enable_transaction_tracing=false
+ro.hardware.egl=adreno
