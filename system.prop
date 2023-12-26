@@ -52,6 +52,9 @@ debug.stagefright.ccodec=0
 mm.enable.smoothstreaming=true
 media.aac_51_output_enabled=true
 
+# Filesystem
+fs_mgr.overlayfs.prefer_cache_backing_storage=true
+
 # LMKD
 ro.lmk.kill_heaviest_task=true
 ro.lmk.use_psi=true
