@@ -46,8 +46,8 @@ PRODUCT_PACKAGES += \
     libaudioclient_shim \
     libqcompostprocbundle \
     libqcomvisualizer \
-    libqcomvoiceprocessing \
-    libqcomvoiceprocessingdescriptors \
+    #libqcomvoiceprocessing \
+    #libqcomvoiceprocessingdescriptors \
     libaudioroute
 
 # Bluetooth

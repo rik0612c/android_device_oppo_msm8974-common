@@ -30,6 +30,8 @@ LOCAL_MODULE_OWNER := qcom
 LOCAL_VENDOR_MODULE := true
 LOCAL_MODULE_RELATIVE_PATH := soundfx
 
+LOCAL_C_INCLUDES += hardware/libhardware/include
+
 include $(BUILD_SHARED_LIBRARY)
 
 endif

@@ -20,7 +20,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := lights.c
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_VENDOR_MODULE := true
-LOCAL_SHARED_LIBRARIES := liblog libcutils
+LOCAL_SHARED_LIBRARIES := liblog libcutils libhardware
 
 LOCAL_MODULE := lights.msm8974
 LOCAL_MODULE_TAGS := optional
