@@ -52,6 +52,13 @@ debug.stagefright.ccodec=0
 mm.enable.smoothstreaming=true
 media.aac_51_output_enabled=true
 
+# LMKD
+ro.lmk.kill_heaviest_task=true
+ro.lmk.use_psi=true
+ro.lmk.use_minfree_levels=false
+ro.lmk.thrashing_limit_decay=50
+ro.lmk.downgrade_pressure=30
+
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
 
